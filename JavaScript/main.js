@@ -18,7 +18,7 @@ switch (calc){
         document.querySelector("h1").innerHTML=`Your Answer is ${x / y}`
         break;
     }
-    case "/":{
+    case "%":{
         document.querySelector("h1").innerHTML=`Your Answer is ${x % y}`
         break;
     }
